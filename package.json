@@ -1,0 +1,21 @@
+{
+  "name": "todo-api-bun-hono",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@hono/zod-openapi": "^1.6.3",
+    "@scalar/hono-api-reference": "^0.12.12",
+    "hono": "^4.13.13",
+    "zod": "^4.6.7"
+  }
+}
